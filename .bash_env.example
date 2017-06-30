@@ -1,0 +1,10 @@
+# .bash_env example file for environment specific configuration
+# You can include everything you want here
+
+# Aliases
+alias flushdns='sudo dscacheutil -flushcache && sudo killall -HUP mDNSResponder && echo "Flushed DNS"'
+
+# PATH exports
+export PATH="/Library/Frameworks/Python.framework/Versions/2.7/bin:${PATH}" # Python
+
+# Etc...

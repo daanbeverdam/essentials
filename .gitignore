@@ -1,0 +1,4 @@
+*.swp
+.DS_Store
+.bash_env
+.telegram_config

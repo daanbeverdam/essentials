@@ -1,0 +1,25 @@
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+
+if [ -f $DIR/.bash_settings ]; then
+    . $DIR/.bash_settings
+fi
+
+if [ -f $DIR/.bash_prompt ]; then
+    . $DIR/.bash_prompt
+fi
+
+if [ -f $DIR/.bash_aliases ]; then
+    . $DIR/.bash_aliases
+fi
+
+if [ -f $DIR/.autocomplete_ssh ]; then
+    . $DIR/.autocomplete_ssh
+fi
+
+if [ -f $DIR/.autocomplete_git ]; then
+    . $DIR/.autocomplete_git
+fi
+
+if [ -f $DIR/.bash_env ]; then
+    . $DIR/.bash_env
+fi
