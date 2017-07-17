@@ -9,4 +9,4 @@ function parse_git_branch() {
     fi
 }
 
-export PS1="\u@\h \W \`parse_git_branch\`\$ "
+export PS1="\u@\h \w \`parse_git_branch\`\$ "
