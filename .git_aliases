@@ -1,4 +1,8 @@
 [alias]
+    st = status
+    ci = commit
+    br = branch
+    co = checkout
+    df = diff
     ls = log --pretty=format:"%C(yellow)%h%Cred%d\\ %Creset%s%Cblue\\ [%cn]" --decorate
     ll = log --stat
-    st = status
