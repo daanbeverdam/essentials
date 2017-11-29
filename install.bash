@@ -5,7 +5,7 @@ ESSENTIALS="if [ -f ${DIR}/.bash_essentials ]; then
     . ${DIR}/.bash_essentials
 fi"
 GITCONFIG="[include]
-    path = ${DIR}/.git_aliases"
+    path = ${DIR}/.git_config"
 GITIGNORE="[core]
     excludesfile = ${DIR}/.gitignore_global"
 
