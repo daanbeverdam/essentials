@@ -1,3 +1,5 @@
 HISTFILESIZE=1000000
 export CLICOLOR=1
 export LSCOLORS=gxBxhxDxfxhxhxhxhxcxcx
+export VISUAL=vim
+export EDITOR="$VISUAL"
